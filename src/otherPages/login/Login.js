@@ -36,6 +36,11 @@ const ElementStyle = styled.div`
     }
   }
 
+  .wrapper_gif{
+    margin-top: 12rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
 `;
 
 const Login = () => {
@@ -142,6 +147,8 @@ const Login = () => {
         </p>
       </section>
       <Postit/>
+
+      <img className="wrapper_gif"  src={require('./img2_readme.gif')} alt="Prototype video" />
 		</ElementStyle>
 	);
 };
