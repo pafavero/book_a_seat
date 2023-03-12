@@ -72,7 +72,7 @@ function NavBar() {
     <ElementStyle>
       <Navbar className='navbar navbar-light'>
         <Container fluid>
-          <Navbar.Brand href="#home">Book a seat!</Navbar.Brand>
+          <Navbar.Brand href="#home">Book a desk!</Navbar.Brand>
           
           <Navbar.Collapse id="navbarScroll">
             <Nav>

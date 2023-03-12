@@ -259,7 +259,7 @@ function RersevationList(props) {
       <Alert show={showAlert2?true:false} msg={showAlert2} variant="danger" setShow={setShowAlert2}/>
       <Modal idToDel={idToDel} handleClose={handleClose} handleDel={handleDel} />
       <div className='div_date_list'>
-        <p>Reservation for seat {props.selSeat}</p>
+        <p>Reservation for desk {props.selSeat}</p>
         <div className='wrapper-scroll'>
           {reservationData.length > 0 ?
           <Table>

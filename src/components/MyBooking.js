@@ -237,8 +237,8 @@ export default function MyBooking(props) {
       const fTDayMonthKey = val.from  + '_' +  val.to + '_' + dayMonthKey
       const r = reservationList.find(item2 => val.id === item2.id)
       const fTime = r.mmtE.format('HH:mm')
-      const txtContent = `from  ${r.mmtS.format('HH:mm')} to ${fTime==='00:00'?'24:00':fTime}, seat id: ${val.seatId}`
-      const titleContent = `from ${r.mmtS.format('DD.MM.yyyy HH:mm')} to ${r.mmtE.add(-1, 'ss').format('DD.MM.yyyy HH:mm')}, seat id: ${val.seatId}`
+      const txtContent = `from  ${r.mmtS.format('HH:mm')} to ${fTime==='00:00'?'24:00':fTime}, desk id: ${val.seatId}`
+      const titleContent = `from ${r.mmtS.format('DD.MM.yyyy HH:mm')} to ${r.mmtE.add(-1, 'ss').format('DD.MM.yyyy HH:mm')}, desk id: ${val.seatId}`
       return (
         <div key={fTDayMonthKey} className="div_bar" style={style} title={titleContent}  >
           {(widthBar > 250)?txtContent:''}

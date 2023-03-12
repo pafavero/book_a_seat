@@ -107,7 +107,7 @@ function CalendarContainer(props) {
         // console.log('=====> insReservationDb resp', resp);
         if(resp && !resp.successfull){
           setShowAlert2(true);
-          setMsgAlert2(`In the same time ${params.interval.join(' - ')} other reservations found have been found (seat ids: ${resp.rows.join(', ')})`);
+          setMsgAlert2(`In the same time ${params.interval.join(' - ')} other reservations found have been found (desk ids: ${resp.rows.join(', ')})`);
         } else {
           props.refreshFn(selSeat.id?props.msg.edit:props.msg.add);
         }
