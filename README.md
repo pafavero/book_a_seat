@@ -8,7 +8,7 @@ https://book-a-seat.vercel.app
 
 ![Screenshot of the prototype](public/img1_readme.png "Screenshot of the prototype")
 
-![Screenshot of the prototype](public/img2_readme.gif "Screenshot of the prototype")
+![Gif of the prototype](public/img2_readme.gif"Gif of the prototype")
 
 Based on Reactjs, database Postgresql, Bootstrap and Next.js Api
 
