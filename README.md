@@ -1,3 +1,10 @@
+---
+title: "PROTOTYPE - Book a desk"
+author: Paolo Favero
+date: 2023.04
+---
+
+
 # PROTOTYPE - Book a desk
 
 Open source PROTOTYPE for management of hybrid work. It gives the employees a simple tool to select and schedule themselves a desk from an interactive map directly. 
