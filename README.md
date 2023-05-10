@@ -1,9 +1,9 @@
 ---
-title: "PROTOTYPE - Book a desk"
-author: Paolo Favero
-date: 2023.04
+[//]: # (Title: PROTOTYPE - Book a desk)
+[//]: # (Date: 2023-04-01)
+[//]: # (Comment: Open source PROTOTYPE for management of hybrid work (desk booking)) 
+[//]: # (Tags: #DeskBooking, #DeskBookingSoftware, #Prototype, #ReactjsApp, #DeskScheduling, #Workplace)  
 ---
-
 
 # PROTOTYPE - Book a desk
 
