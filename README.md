@@ -44,3 +44,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Technologies
+Frontend: Reactjs
+Backend: Nodejs, nextjs API
+Database: Postgres
+Deployment Frontend -: Vercel and Backend -: Supabase
+
