@@ -10,7 +10,7 @@
 Open source PROTOTYPE for management of hybrid work. It gives the employees a simple tool to select and schedule themselves a desk from an interactive map directly. 
 
 Have a look at the website:
-https://book-a-seat.vercel.app
+<font size="5">https://book-a-seat.vercel.app</font>
 
 
 ![Screenshot of the prototype](public/img1_readme.png "Screenshot of the prototype")
