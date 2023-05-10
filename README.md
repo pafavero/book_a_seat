@@ -17,7 +17,15 @@ https://book-a-seat.vercel.app
 
 ![Gif of the prototype](public/img2_readme.gif "Gif of the prototype")
 
-Based on Reactjs, database Postgresql, Bootstrap and Next.js Api
+## Technologies
+Frontend: Reactjs, Bootstrap
+
+Backend: Nodejs, nextjs API
+
+Database: Postgres
+
+Deployment Frontend -: Vercel and Backend -: Supabase
+
 
 ## Available Scripts
 
@@ -44,9 +52,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Technologies
-Frontend: Reactjs
-Backend: Nodejs, nextjs API
-Database: Postgres
-Deployment Frontend -: Vercel and Backend -: Supabase
 
