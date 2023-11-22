@@ -35,7 +35,7 @@ export default function Dashboard() {
   return(
     <ElementStyle>
       <NavBar/>
-      <div className='ref-wrapper'>powered by <span>pa.favero@gmail.com</span></div>
+      <div className='ref-wrapper'>powered by <span>pa.favero@gmail.com - https://github.com/pafavero/book_a_seat</span></div>
     </ElementStyle>
   )
 }
