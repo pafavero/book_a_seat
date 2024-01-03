@@ -18,6 +18,14 @@ Have a look at the website:
 ![Gif of the prototype](public/img2_readme.gif "Gif of the prototype")
 
 ## Technologies
+This Repo contains all codes for the frontend and it is a pure React application (generated with create-react-app https://github.com/facebook/create-react-app ). 
+
+I use nextjs as a framework to retrieve data from the db, because nextjs supports  API routes (it provides a solution to build a public API). For example if the React App needs to know all reservation related to seat 1, it will makes the following API request: http://___YOR_NEXTJS_URL___/api/reservations?selSeat=1
+
+The nextjs project can be found https://github.com/pafavero/nextjs_book_a_seat )
+The used dababase contains only 3 tables and the sql to generate them can be found here:
+https://github.com/pafavero/nextjs_book_a_seat/blob/main/sql/create_db.sql 
+
 Frontend: Reactjs, Bootstrap
 
 Backend: Nodejs, nextjs API
