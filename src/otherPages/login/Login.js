@@ -54,11 +54,11 @@ const Login = () => {
 	const [success, setSuccess] = useState(false);
 
 	useEffect(() => {
-		userRef.current.focus();
+    userRef.current.focus();
 	}, []);
 
 	useEffect(() => {
-		setErrMsg('');
+    setErrMsg('');
 	}, [user, pwd]);
 
 	const handleSubmit = async (e) => {
@@ -77,7 +77,7 @@ const Login = () => {
 			);
 			const accessToken = response?.data?.token;
 			if (!accessToken) {
-                setErrMsg('Login or password wrong...');
+        setErrMsg('Login or password wrong...');
 				setSuccess(false);
 			}else{
 				const role = response?.data?.role;
@@ -90,7 +90,7 @@ const Login = () => {
 			
 		} catch (err) {
 			if (!err?.response) {
-                setErrMsg('No Server Response');
+        setErrMsg('No Server Response');
 			} else if (err.response?.status === 400) {
 				setErrMsg('Missing Username or Password');
 			} else if (err.response?.status === 401) {
@@ -98,7 +98,6 @@ const Login = () => {
 			} else {
 				setErrMsg('Login Failed');
 			}
-			errRef.current.focus();
 		}
 	};
 
