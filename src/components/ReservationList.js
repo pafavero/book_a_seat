@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button'
 import Table from 'react-bootstrap/Table'
 import styled from 'styled-components'
 import moment from 'moment'
-import utils from '../api/utils'
+import utils from '../api/utils.ts'
 import AuthContext from '../context/AuthProvider'
 
 const ElementStyle = styled.div`

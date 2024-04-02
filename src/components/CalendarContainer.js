@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSave } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
-import utils from '../api/utils'
+import utils from '../api/utils.ts'
 import Alert from './Alert.js'
 import CloseButton from 'react-bootstrap/CloseButton';
 

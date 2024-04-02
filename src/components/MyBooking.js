@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import styled from 'styled-components'
 import moment from 'moment';
 import axios from '../api/axios'
-import utils from '../api/utils'
+import utils from '../api/utils.ts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash} from '@fortawesome/free-solid-svg-icons'
 
