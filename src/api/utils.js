@@ -71,7 +71,7 @@ const utils ={
   },
 
   insReservationDb: async (params, selSeat, callback) => {
-    try {    
+        try {    
         let response;
         if(selSeat.id){ // edit
           response = await axios.put(
